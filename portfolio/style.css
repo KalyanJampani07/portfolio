@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f4f9ff;
+    color: #222;
+}
+
+/* ===== TOP BAR ===== */
+.top-bar {
+    background: #3b6df6;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu-icon {
+    font-size: 22px;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background: #1e1e1e;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero span {
+    color: #4da6ff;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    background: #3b6df6;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn.outline {
+    background: transparent;
+    border: 2px solid #3b6df6;
+}
+
+/* ===== SECTION ===== */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section.light {
+    background: #eef6ff;
+}
+
+.section-title {
+    font-size: 26px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #3b6df6;
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+/* ===== ABOUT ===== */
+.about-card {
+    max-width: 400px;
+    margin: auto;
+    background: #e3f2ee;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.about-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+/* ===== SKILLS ===== */
+.skills {
+    max-width: 500px;
+    margin: auto;
+}
+
+.skill {
+    background: #f2f2f2;
+    margin: 12px 0;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.skill i {
+    margin-right: 10px;
+    color: #3b6df6;
+}
+
+/* ===== PROJECTS ===== */
+.projects {
+    max-width: 500px;
+    margin: auto;
+}
+
+.project-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.project-card i {
+    font-size: 30px;
+    color: #3b6df6;
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3b6df6;
+    font-weight: bold;
+}
+
+/* ===== CONTACT ===== */
+.contact a {
+    display: block;
+    margin: 12px 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #3b6df6;
+}
+
+.contact i {
+    margin-right: 8px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #3b6df6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+/* ===== ABOUT SECTION ===== */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+}
+/* ===== ABOUT SECTION ===== */
+.about-container {
+    display: flex;
+    flex-direction: column;   /* makes image & text vertical */
+    align-items: center;      /* centers horizontally */
+    text-align: center;       /* centers text */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+}
+
+.about-text {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+}
+/* ===== SECTION TITLE ===== */
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* blue underline */
+.section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 8px auto 0;
+}
+
+/* ===== ABOUT SECTION ===== */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+}
+
+.about-text {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+}
